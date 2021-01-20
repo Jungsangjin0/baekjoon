@@ -12,9 +12,11 @@ public class Singleton {
 		
 		//클래스 로딩 시점에서 생성
 		private static final Singleton uniqueInstance = new Singleton();
+		
 	}
 	
 	public static Singleton getSingleton() {
 		return InnerInstanceClazz.uniqueInstance;
 	}
 }
+
