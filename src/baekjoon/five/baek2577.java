@@ -16,6 +16,7 @@ public class baek2577 {
 		for(int i = 0; i < str.length(); i++) {
 			String a = String.valueOf(str.charAt(i));
 			arr[Integer.parseInt(a)]++;
+//			arr[Integer.parseInt(a)] += 1;
 		}
 		for(int result : arr) {
 			System.out.println(result);
